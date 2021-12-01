@@ -1,0 +1,101 @@
+body{
+	margin : 0;
+	background: rgba(173, 192, 206, .3);
+}
+
+.head{
+	color: #29838C;
+	background: rgba(173, 192, 206, .3);
+	text-align:center;
+	font-size:x-large;
+}
+
+.bottom{
+	color: #29838C;
+	background: rgba(173, 192, 206, .3);
+	text-align:center;
+	font-size:medium;
+}
+
+.labs ul {
+  background: #D4E7EE;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.labs li {
+	float: left;
+	width : 10%;
+}
+
+.labs a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	border-right: 1px solid #ADC0CE;
+	border-top: 1px solid #ADC0CE;
+	border-bottom: 1px solid #ADC0CE;
+	background: rgba(173, 192, 206, .3);
+	color: #29838C;
+}
+
+.labs a:hover {
+	background: #ADC0CE;
+}
+
+.team{
+	font-size: large;
+	padding-top:10%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:10%;
+}
+
+.vitya{
+	display: block;
+  width: 250px;
+  height: 300px;
+	background-image: url(../images/Viktor.jpg);
+	transition: background-image 0.5s linear;
+}
+
+.den{
+	display: block;
+  width: 250px;
+  height: 300px;
+	background-image: url(../images/Den.jpg);
+	transition: background-image 0.5s linear;
+}
+
+.yegor{
+	display: block;
+  width: 250px;
+  height: 300px;
+	background-image: url(../images/Yehor.jpg);
+	transition: background-image 0.5s linear;
+}
+
+.vitaliy{
+	display: block;
+  width: 250px;
+  height: 300px;
+	background-image: url(../images/Vitaliy.jpg);
+	transition: background-image 0.5s linear;
+}
+
+.vitya:hover{
+	background-image: url(../images/Viktor2.jpg);
+}
+
+.den:hover{
+	background-image: url(../images/Den2.jpg);
+}
+
+.yegor:hover{
+	background-image: url(../images/Yegor2.jpg);
+}
+
+.vitaliy:hover{
+	background-image: url(../images/Vitaliy2.jpg);
+}
